@@ -1,0 +1,87 @@
+
+	  
+body {background: #f0ede6;}
+a.invester {color: #003da6;text-decoration: none;margin: 15px;font-weight: 600;}
+a.menu-btn span {background: red;display: block;height: 5px;width: 30px;border-radius: 5px;margin: 6px 5px 5px 20px;}
+.text-area {max-width: 500px;top: 25vh;max-width: 500px;}
+h2.slider-text {font-size: 86px;color: #003da6;font-weight: 900;line-height: 1;}
+button {background-color: #c00020;color: #fff;border: none;padding: 10px 20px;border-radius: 28px;line-height: 1;}
+.text-area button {margin-top: 50px;}
+.ani {max-width: 500px;}
+.nuts img {max-width: 100px;}
+.nuts {position: relative;z-index: -1;}
+.layer-3 img {max-width: 455px;}
+
+
+  @keyframes my-animation {
+		0%{ transform: translateX(-50vw);}
+		5% {transform: translateX(0vw);}
+	  }
+	  
+	  @keyframes layer-1 {
+		0%{top: 99vh;transition: 0.5s;}
+		1% {top: 95vh;transition: 0.5s;}
+		5% {top: 90vh;transition: 0.5s;}
+	  }  
+	  
+	  @keyframes layer-2 {
+		0%{top: 99vh;transition: 0.5s;transform:scale(0);}
+		45% {top: 80vh;transition: 0.5s;transform:scale(1);}
+	  } 
+	  @keyframes layer-3 {
+		0%{top: 99vh;transition: 0.5s;transform:scale(0);}
+		50% {top: 78vh;transition: 0.5s;transform:scale(1);}
+	  }
+	  @keyframes layer-4 {
+		0%{top: 99vh;transition: 0.5s;transform:scale(0);}
+		50% {top: 77vh;transition: 0.5s;transform:scale(1);}
+	  }
+	  @keyframes layer-5 {
+		0%{top: 99vh;transition: 0.5s;transform:scale(0);}
+		50% {top: 77vh;transition: 0.5s;transform:scale(1);}
+	  }
+	  @keyframes layer-6 {
+		0%{top: 99vh;transition: 0.5s;transform:scale(0);}
+		50% {top: 78vh;transition: 0.5s;transform:scale(1);}
+	  } 
+	  
+	  @keyframes nuts-1 {
+		0%{top: 1vh;transition: 0.5s;  transform: rotate(45deg);}
+		5% {top: 50vh;transition: 0.5s;  transform: rotate(90deg);}
+		10% {top: 90vh;transition: 0.5s;  transform: rotate(180deg);}
+	  }  
+	  @keyframes nuts-2 {
+		0%{top: 1vh;transition: 0.5s;  transform: rotate(45deg);}
+		8% {top: 50vh;transition: 0.5s;  transform: rotate(175deg);}
+		15% {top: 90vh;transition: 0.5s;  transform: rotate(190deg);}
+	  } 
+	  @keyframes nuts-3 {
+		0%{top: 1vh;transition: 0.5s;  transform: rotate(45deg);}
+		10% {top: 50vh;transition: 0.5s;  transform: rotate(90deg);}
+		15% {top: 90vh;transition: 0.5s;  transform: rotate(180deg);}
+	  }  
+	  @keyframes nuts-4 {
+		0%{top: 1vh;transition: 0.5s;  transform: rotate(45deg);}
+		15% {top: 50vh;transition: 0.5s;  transform: rotate(175deg);}
+		20% {top: 90vh;transition: 0.5s;  transform: rotate(190deg);}
+	  }
+	  @keyframes nuts-5 {
+		0%{top: 1vh;transition: 0.5s;  transform: rotate(45deg);}
+		20% {top: 50vh;transition: 0.5s;  transform: rotate(90deg);}
+		25% {top: 90vh;transition: 0.5s;  transform: rotate(180deg);}
+	  }  
+	  @keyframes nuts-6 {
+		0%{top: 1vh;transition: 0.5s;  transform: rotate(45deg);}
+		25% {top: 50vh;transition: 0.5s;  transform: rotate(175deg);}
+		30% {top: 90vh;transition: 0.5s;  transform: rotate(190deg);}
+	  } 
+	  @keyframes nuts-7 {
+		0%{top: 1vh;transition: 0.5s;  transform: rotate(45deg);}
+		30% {top: 50vh;transition: 0.5s;  transform: rotate(90deg);}
+		35% {top: 90vh;transition: 0.5s;  transform: rotate(180deg);}
+	  }  
+	  @keyframes nuts-8 {
+		0%{top: 1vh;transition: 0.5s;  transform: rotate(45deg);}
+		35% {top: 50vh;transition: 0.5s;  transform: rotate(175deg);}
+		40% {top: 90vh;transition: 0.5s;  transform: rotate(190deg);}
+	  }  
