@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="john"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <label for="email">Enter Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="pass">Enter Your Password:</label><br>
+  <input type="password" id="pass" name="pass"><br><br>
+  <label for="pass">Demo Of Radio buttons:</label><br><br>
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="transgender">Transgender
+  <label for="pass">Demo Of Checkboxes </label><br><br>
+  <input type="checkbox" name="lang" value="English">English
+  <input type="checkbox" name="lang" value="Hindi">Hindi
+  <input type="checkbox" name="lang" value="Punjabi">Punjabi
+  <input type="checkbox" name="lang" value="Himachali">Himachali
+  <input type="checkbox" name="lang" value="Gujrati">Gujrati
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
