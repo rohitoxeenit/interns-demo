@@ -1,0 +1,20 @@
+.form-control{
+	width: 100%;
+	float:left;
+	margin: 5px auto;
+}
+.col25{
+	width:25%;
+}
+.col50{
+	width:50%;
+}
+.col40{
+	width:40%;
+}
+.col60{
+	width:60%;
+}
+.col100{
+	width:100%;
+}
