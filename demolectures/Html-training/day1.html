@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>DEMO of Form Elements</title>
+		<link href="css/style.css" rel="stylesheet" >
+	</head>
+	<body>
+		<form action="" method="POST">
+			<div class="form-control">
+				<label>Full Name:</label>
+				<input type="text" name="" class="" id="" placeholder="Enter Your Full Name">
+			<div>
+			<br/>
+			<input type="password" name="" class="form-control" id="" placeholder="Enter Your Password">
+			<br/>
+			<input type="date" name="" class="form-control" id="" placeholder="pick your date">
+			<br/>
+			<input type="tel" name="" class="form-control" id="" placeholder="Enter Your Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+			<input type="email" name="" class="form-control" id="" placeholder="Your Email-id">
+			
+			<div class="form-control">
+				<label>Additions Skills:</label>
+				<input type="checkbox" name="addskills[]" class="semi-control" id="" value="html"> HTML
+				<input type="checkbox" name="addskills[]" class="semi-control" id="" value="css"> CSS
+				<input type="checkbox" name="addskills[]" class="semi-control" id="" value="bootstrap"> Bootstrap
+				<input type="checkbox" name="addskills[]" class="semi-control" id="" value="javascript"> Javascript
+				<input type="checkbox" name="addskills[]" class="semi-control" id="" value="jQuery"> jQuery
+				<input type="checkbox" name="addskills[]" class="semi-control" id="" value="php"> PHP
+			</div>
+			<div class="form-control">
+				<label>Highest Qualification:</label>
+				<input type="radio" name="highedu" class="semi-control" id="" value="mca"> MCA
+				<input type="radio" name="highedu" class="semi-control" id="" value="bca"> BCA
+				<input type="radio" name="highedu" class="semi-control" id="" value="12"> Sr. Sec
+				<input type="radio" name="highedu" class="semi-control" id="" value="10"> High School
+			</div>
+			<div class="form-control">
+				<label>Select Gender:</label>
+				<input type="radio" name="gender" class="semi-control" id="" value="male"> Male
+				<input type="radio" name="gender" class="semi-control" id="" value="female"> Female
+				<input type="radio" name="gender" class="semi-control" id="" value="transgender"> Transgender
+			</div>
+			<textarea class="form-control">Lorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsumLorem porem ipsum dipsum</textarea>
+			
+			<select name="state" class="form-control" id="">
+				<option value="">--Select--</option>
+				<option value="haryana">Haryana</option>
+				<option value="himachal">Himachal</option>
+				<option value="punjab">Punjab</option>
+				<option value="delhi">Delhi</option>
+			</select>
+			
+			<input type="button" value="Reset" name="reset" id="reset" onclick="myreset()">
+			<input type="submit" value="Submit" name="submit" id="submit">
+			<p id="demo"></p>
+			<button name="redirect" id="redirect">Redirect To GOOGLE</button>
+		</form>
+	</body>
+	<script type="text/javascript">
+		 
+			function myreset(){
+				document.getElementById("demo").innerHTML = "My First JavaScript";
+			}
+	</script>
+</html>
